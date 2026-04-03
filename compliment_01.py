@@ -1,22 +1,18 @@
 # FILE NAME - compliment_01.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Dan Dettman
+# DATE: 4/1/2026
+# BRIEF DESCRIPTION:This program asks the user if they would like a compliment.
+# If the user types exactly "yes", a compliment is given.
+# Any other response is not considered affirmative.
+# The user is thanked either way.  
 
+response = input("Would you like a compliment? ")
 
+if response == "yes":
+    print("You're doing a great job and should be proud of yourself!")
 
-# 1. Make sure you fill out the comments above
-# 2. Write your code in the proper spot
-# 3. Be sure to answer the Reflection Questions and Attestation below
-# 4. The Sample Output has been included in this code for your convenience
-
-
-
-########## ENTER YER CODE BELOW THIS LINE ##########
-
-
-
+print("Thank you for participating!")
 
 
 
@@ -24,58 +20,14 @@
 
 
 
-########### END YER CODE ABOVE THIS LINE ###########
+
+
+
+
+
+
 
     
 
 
 
-########################################
-#          SAMPLE OUTPUT
-########################################
-
-'''
-Would you like a compliment? yes
-You have wonderful eyes.
-Thank you for playing.
-'''
-
-
-'''
-Would you like a compliment? y
-Thank you for playing.
-'''
-
-
-'''
-Would you like a compliment? Yes
-Thank you for playing.
-'''
-
-
-'''
-Would you like a compliment? no
-Thank you for playing.
-'''
-
-
-########################################
-#          REFLECTION QUESTIONS
-########################################
-
-'''
-
-1. On a scale of 1 to 10 (where 10 is the hardest), how would you rate this lab?
-
-
-
-
-2. What was the hardest part of this lab?
-
-
-
-
-
-
-
-'''
